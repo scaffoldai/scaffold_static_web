@@ -1,0 +1,53 @@
+.feedback-button-container {
+    position: fixed;
+    bottom:0;
+    right:0;
+    padding:20px;
+}
+
+.scaffold-feedback-btn {
+  background-color: #ffffff;
+}
+
+.feedback-button {
+    color: rgba(0,0,0,.6);
+}
+.feedback-button:hover, .feedback-button:active, .feedback-button:focus {
+    background-color:#fcd32f;
+    border-color:#fcd32f;
+}
+
+.delayed-wiggle {
+  -webkit-animation-name: wiggle;
+  -ms-animation-name: wiggle;
+  -ms-animation-duration: 5000ms;
+  -webkit-animation-duration: 5000ms;
+  -webkit-animation-iteration-count: 4;
+  -ms-animation-iteration-count: 4;
+  -webkit-animation-timing-function: ease-in-out;
+  -ms-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes wiggle {
+  90% {-webkit-transform: rotate(0deg);}
+  92% {-webkit-transform: rotate(-10deg);}
+  95% {-webkit-transform: rotate(20deg);}
+  97% {-webkit-transform: rotate(-5deg);}
+  100% {-webkit-transform: rotate(0deg);}
+}
+
+@-ms-keyframes wiggle {
+  90% {-ms-transform: rotate(0deg);}
+  92% {-ms-transform: rotate(-1deg);}
+  95% {-ms-transform: rotate(1.5deg);}
+  97% {-ms-transform: rotate(-5deg);}
+  100% {-ms-transform: rotate(0deg);}
+}
+
+@keyframes wiggle {
+  90% {transform: rotate(0deg);}
+  92% {transform: rotate(-10deg);}
+  95% {transform: rotate(20deg);}
+  97% {transform: rotate(-5deg);}
+  100% {transform: rotate(0deg);}
+}

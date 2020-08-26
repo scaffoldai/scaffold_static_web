@@ -1,1 +1,0 @@
-# scaffold_static_web

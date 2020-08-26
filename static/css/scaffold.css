@@ -1,0 +1,73 @@
+/* Scaffold theming */
+.scaffold-btn-primary {
+    color: #ffffff;
+    background-color: #7B63AA;
+    border-color: #7B63AA;
+}
+
+.scaffold-btn-primary-outline {
+    background-color: rgba(255,255,255,.8);
+    border-color: #7B63AA;
+    color: #7B63AA;
+}
+
+/* https://stackoverflow.com/questions/25923623/change-hover-color-on-a-button-with-bootstrap-customization */
+.scaffold-btn-primary:hover, .scaffold-btn-primary:focus, .scaffold-btn-primary:active, .scaffold-btn-primary.active, .open>.dropdown-toggle.scaffold-btn-primary {
+    color: #ffffff;
+    background-color: #6b4da5 !important;
+    border-color: #6b4da5 !important;
+}
+
+.scaffold-btn-primary.disabled, .scaffold-btn-primary:disabled {
+    color: #ffffff;
+    background-color: #6b4da5 !important;
+    border-color: #6b4da5 !important;
+}
+
+.scaffold-btn-primary-outline:hover, .scaffold-btn-primary-outline:focus, .scaffold-btn-primary-outline:active, .scaffold-btn-primary-outline.active, .open>.dropdown-toggle.scaffold-btn-primary-outline {
+    color: #ffffff;
+    background-color: #6b4da5;
+    border-color: #6b4da5;
+}
+
+.text-scaffold {
+    color: #6b4da5;
+}
+
+.scaffold-a:link, .scaffold-a:visited {
+    color: #6b4da5;
+}
+
+.scaffold-a:hover, .scaffold-a:active {
+    color: #6b4da5;
+    text-decoration:underline;
+}
+
+/* --- card input related --- */
+.card-input-label {
+    width: 100%;
+}
+
+.card-input-element {
+    display: none;
+}
+
+/*.card-input {
+    padding: 10px;
+}*/
+
+.card-input:hover {
+    cursor: pointer;
+}
+
+.card-input-element:checked + .card-input {
+     box-shadow: 0 0 1px 1px #6b4da5;
+ }
+
+.font-small {
+    font-size:0.9rem;
+}
+
+.dotted-underline {
+    width:100%;
+}
